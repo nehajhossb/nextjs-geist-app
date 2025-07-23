@@ -1,0 +1,49 @@
+# ThriftHub Marketplace - Complete Project Structure
+# Copy these files to your computer to recreate the project
+
+## Root Files:
+- package.json
+- tsconfig.json
+- next.config.ts
+- tailwind.config.js (if needed)
+- postcss.config.mjs
+- eslint.config.mjs
+- .gitignore
+- README.md
+- SETUP_INSTRUCTIONS.md
+
+## Directory Structure:
+thrifthub-marketplace/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── error.tsx
+│   │   ├── globals.css
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── register/
+│   │   │   └── page.tsx
+│   │   ├── admin/
+│   │   │   └── page.tsx
+│   │   ├── seller/
+│   │   │   └── page.tsx
+│   │   └── buyer/
+│   │       └── page.tsx
+│   ├── components/
+│   │   ├── Navigation.tsx
+│   │   ├── Chat.tsx
+│   │   ├── ProductCard.tsx
+│   │   └── ui/ (Shadcn/ui components - already included)
+│   ├── context/
+│   │   └── UserContext.tsx
+│   ├── lib/
+│   │   └── utils.ts
+│   └── hooks/
+│       └── use-mobile.ts
+├── public/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
